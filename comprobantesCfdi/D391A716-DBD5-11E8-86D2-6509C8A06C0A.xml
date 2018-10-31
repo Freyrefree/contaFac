@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="A" Folio="2" Fecha="2018-10-29T17:52:15" Sello="LEgq/Tr9oQsC7nfaBrZZb2xKwEoRMXl9iKuIgHwOFLGYAbDdk1zbBSmDrQHGgt/0X5FQ9ncfBgw7RXQ1lA9zZZPP8dDRPo8Uv7w4eoXoJ3ueU8YD21YS3Ec1mKl5KCWT8WrSzvgKa4y28FQGCuOdptIicU2geh+cB3T5YU7O8jo=" FormaPago="01" NoCertificado="20001000000200000192" Certificado="MIIERjCCAy6gAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAxOTIwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMjIwNDgwNloXDTE2MTAyMjIwNDgwNlowgcAxITAfBgNVBAMTGEVESVRPUklBTCBTSVNUQSBTQSBERSBDVjEhMB8GA1UEKRMYRURJVE9SSUFMIFNJU1RBIFNBIERFIENWMSEwHwYDVQQKExhFRElUT1JJQUwgU0lTVEEgU0EgREUgQ1YxJTAjBgNVBC0THEVTSTkyMDQyNzg4NiAvIEhFR1Q3NjEwMDM0UzIxHjAcBgNVBAUTFSAvIEhFR1Q3NjEwMDNNREZSTk4wOTEOMAwGA1UECxMFQW1pZ2EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK6YqAg3LHOPpAKD9OFkcNgB5wj+3k4oHPK3bFfku4TCEswtMhIt5LnZCt4UK0cp9SYpKMa2kZVYm6k6zphWg9bzv3pvHwt9mB6kFGyApU71cOk16unqL2o/pDj65zNtUBfDyKkKBUGQMYgtqvVq6aXJipqKOS/NsDKEUt0q1ghTAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCgCCpYDbmN8npLX6vHCEJAF/1G3KhuAGY48wVt1va1YXRy6yj+tJZ9HZ3l8TY7J6n10XkrbzedOArKyjdpfqWbNabZHw6b2IlSN8HrHliiAEor5hwTUJnkg6S1nm0mmirInxCmWoVV+qrEX/XHylJ+OjIql/GyZrH9sEPCY+LYFfVhO0U73jKqajMEeZtWYq5wro4UhPUhlYgwhlzUN6XNWtiC8ohjE6QJaf8jYRsJjHraZL257O1o5T/3ULMJhASN7R211FmyAuiYsq8H3buPE0kl+EmN8DUNpTDkB9Xf1ba6gXZ0PRXF1oGUwxvX9FiI5eIau2RLfy9AfJPcpAXN" SubTotal="100.00" Total="100.00" TipoDeComprobante="I" MetodoPago="PUE" CondicionesDePago="NA" LugarExpedicion="12345" Moneda="MXN" Descuento="0.00">
+  <cfdi:Emisor Rfc="ESI920427886" Nombre="EMPRESA DEMO" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="PUBLICO EN GENERAL" UsoCFDI="P01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="30171501" NoIdentificacion="NA" Cantidad="1" ClaveUnidad="E48" Unidad="E48" Descripcion="InstalaciÃ³n de puerta de cristal claro de 9 mm con bisagras hidrÃ¡ulica" ValorUnitario="100.00" Importe="100.00" Descuento="0.00">
+           </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="0.00">
+   
+  
+  
+  
+  
+</cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="D391A716-DBD5-11E8-86D2-6509C8A06C0A" FechaTimbrado="2018-10-29T17:53:25" RfcProvCertif="FMO1007168C6" SelloCFD="LEgq/Tr9oQsC7nfaBrZZb2xKwEoRMXl9iKuIgHwOFLGYAbDdk1zbBSmDrQHGgt/0X5FQ9ncfBgw7RXQ1lA9zZZPP8dDRPo8Uv7w4eoXoJ3ueU8YD21YS3Ec1mKl5KCWT8WrSzvgKa4y28FQGCuOdptIicU2geh+cB3T5YU7O8jo=" NoCertificadoSAT="20001000000300022323" SelloSAT="nYLf5sfsWwSDoaquDDAtMViDM21lGtuxUDePDkf59HBrarhf/t9FvbfQAGCwEq/oZqgfDh4MVspsB0pYGY+jeYK7Yk0xutFPHRFjXHTct506s5biqqK8v75neOo5feBmVbqck98FOOd62rH5dlDgOR8fe9FeU6D4MnNFsqnUOfjFCzaXLWsuOH6XS9G6kZOT1vXeF2EtC4IdZHHfsEke8kV8WkKeVZ2QeQNkGxo18HuFCC543sG9HsGMbeSgKmLodIO+r6e7npx+QvzGlRmMqB7I5qD5Y33ZR5nquUASbx4jsxgQcnqrJ+HcJIJI/QZXD+94xXGzzTUCJSXIwzWs+g=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="A" Folio="94" Fecha="2018-10-29T18:04:50" Sello="" FormaPago="01" NoCertificado="" Certificado="" SubTotal="200.00" Total="200.00" TipoDeComprobante="Ingreso" MetodoPago="PUE" CondicionesDePago="NA" LugarExpedicion="12345" Moneda="MXN" Descuento="0.00">
+<cfdi:Emisor Rfc="ESI920427886" Nombre="EMPRESA DEMO" RegimenFiscal="601"/>
+<cfdi:Receptor Rfc="XAXX010101000" Nombre="PUBLICO EN GENERAL" UsoCFDI="P01"/>
+<cfdi:Conceptos>
+   <cfdi:Concepto ClaveProdServ="30171500" NoIdentificacion="NA" Cantidad="1" ClaveUnidad="E48" Unidad="E48" Descripcion="Puertas" ValorUnitario="200.00" Importe="200" Descuento="0.00">
+            <cfdi:Impuestos>
+              <cfdi:Traslados>
+                <cfdi:Traslado Base="200" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="200.00"/>
+              </cfdi:Traslados>            
+            </cfdi:Impuestos>
+          </cfdi:Concepto>
+</cfdi:Conceptos>
+<cfdi:Impuestos TotalImpuestosRetenidos="0" TotalImpuestosTrasladados="0.00">
+  
+  
+  
+   
+</cfdi:Impuestos>
+</cfdi:Comprobante>
